@@ -1,0 +1,21 @@
+/* -------------------------------------------------------------
+   VARIABLES (Design System)
+   ------------------------------------------------------------- */
+:root {
+    --font-main: "Poppins", sans-serif;
+
+    /* Couleurs typiques Google */
+    --gray-100: #f8f9fa;
+    --gray-200: #f1f3f4;
+    --gray-300: #dadce0;
+    --gray-600: #5f6368;
+    --gray-800: #202124;
+
+    --blue-main: #1a73e8;
+    --blue-main-hover: #1669c1;
+
+    --border-radius: 0.8rem;
+    --transition: 0.2s ease;
+
+    --input-height: 45px;
+}
