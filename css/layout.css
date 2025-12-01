@@ -80,3 +80,75 @@
     border-radius: 6px;
     font-size: 15px;
 }
+
+.memberSection {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.memberSection p {
+    margin-bottom: 10px;
+    color: var(--gray-600);
+}
+
+.btn-primary {
+    width: 50%;
+    padding: 10px;
+    position: flex;
+    background-color: #eeea0eff;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+.btn-secondary {
+    padding: 10px 15px;
+    background: transparent;
+    border: 1px solid var(--blue-main);
+    color: var(--blue-main);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-secondary:hover, .btn-primary:hover {
+    background: var(--blue-main-hover);
+    color: red;
+}
+
+.socialSignup {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.social-btn {
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: var(--transition);
+}
+
+/* Facebook */
+.fbSign {
+    background: #1877f2;
+    color: white;
+    border-radius: 0.8rem;
+}
+
+.fbSign:hover {
+    background: #0f5acd;
+}
+
+/* Google */
+.googleSign {
+    background: white;
+    color: #444;
+    border: 1px solid #dadce0;
+    border-radius: 0.8rem;
+}
+
+.googleSign:hover {
+    background: #f8f9fa;
+}

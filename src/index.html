@@ -14,32 +14,39 @@
         <div class="leftSide">
             <img src="../images/logo.jpg" alt="Logo du site">
         </div>
-
         <div class="rightSide">
-            <h2>Create Account</h2>
+    <h2>Create Account</h2>
 
-            <form class="form">
-                <div class="field">
-                    <label for="nameField">Name</label>
-                    <input type="text" id="nameField" required>
-                </div>
-
-                <div class="field">
-                    <label for="emailField">Email</label>
-                    <input type="email" id="emailField" required>
-                </div>
-
-                <div class="field">
-                    <label for="passField">Password</label>
-                    <input type="password" id="passField" required>
-                </div>
-
-                <button type="submit" class="btn-primary">
-                    Create account
-                </button>
-            </form>
-
+    <form class="form">
+        <div class="field">
+            <label for="nameField">Name</label>
+            <input type="text" id="nameField" required>
         </div>
+
+        <div class="field">
+            <label for="emailField">Email</label>
+            <input type="email" id="emailField" required>
+        </div>
+
+        <div class="field">
+            <label for="passField">Password</label>
+            <input type="password" id="passField" required>
+        </div>
+
+        <button type="submit" class="btn-primary">Create account</button>
+    </form>
+
+    <!-- SECTION EXISTING MEMBER -->
+    <div class="memberSection">
+        <p>Already a member?</p>
+        <a href="/login" class="btn-secondary">Sign in</a>
+    </div>
+
+    <!-- SOCIAL SIGNUP -->
+    <div class="socialSignup">
+        <button class="social-btn fbSign">Sign up with Facebook</button>
+        <button class="social-btn googleSign">Sign up with Google</button>
+    </div>
 
     </div>
 </body>
